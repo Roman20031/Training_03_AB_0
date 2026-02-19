@@ -29,6 +29,13 @@
     text-decoration: none;
     color: white;
     margin-bottom: 10px;
+
+}
+a:hover{
+    color: red;
+    /*font-size: 23px;*/
+    transform: scale(1.04);
+    /*text-decoration: underline; */
 }
 form input{
     width: 400px;
@@ -49,5 +56,11 @@ form button{
     padding: 10px 30px;
     font-size: 15px;
     cursor: pointer;
-}
 
+}
+form button:hover{
+    color: red;
+    /*font-size: 23px;*/
+    transform: scale(1.04);
+    /*text-decoration: underline; */
+}
